@@ -1,4 +1,4 @@
-🏃 RunTrainer - Offline Pro
+🏃 RunTrainer - Offline
 
 Seu assistente de corrida focado em performance e simplicidade.
 
