@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "RunTrainer",
+    "slug": "RunTrainer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    
+    "icon": "./assets/icon.png", 
+    "userInterfaceStyle": "dark",
+    
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    
+    "ios": {
+      "supportsTablet": true
+    },
+    
+    "android": {
+      "package": "com.cesarpg.RunTrainer",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1e293b"
+      }
+    },
+    
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0f172a",
+          "image": "./assets/adaptive-icon.png",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    
+    "extra": {
+      "eas": {
+        "projectId": "8388453b-644c-428c-b774-cc0256539147"
+      }
+    }
+  }
+}
